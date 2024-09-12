@@ -100,6 +100,7 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 5877,D,E,Carlos Augusto,Inter,9,9,0,8,8,0,20,16
 5885,D,Dd;E,Dodo',Fiorentina,9,9,0,9,9,0,23,23
 252,D,B;Ds;E,Biraghi,Fiorentina,8,7,1,9,8,1,30,42
+2406,D,Dc,Hummels,Roma,8,8,0,8,8,0,19,19
 2602,D,Dc,Varane,Como,8,9,-1,8,9,-1,15,15
 2640,D,B;Ds;E,Kolasinac,Atalanta,8,9,-1,9,10,-1,21,25
 4210,D,Dc,Mina,Cagliari,8,8,0,8,8,0,16,16
@@ -235,6 +236,7 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 6826,D,E,Dembele' A.,Torino,2,1,1,2,1,1,3,3
 6887,D,Dc,Leoni,Parma,2,2,0,2,2,0,3,3
 358,D,Dd;Ds;E,De Sciglio,Empoli,1,1,0,1,1,0,10,12
+464,D,Dd;Ds;E,Florenzi,Milan,1,1,0,1,1,0,1,1
 2203,D,Ds;E,Di Chiara,Parma,1,1,0,1,1,0,1,1
 5695,D,Ds;E,Haps,Venezia,1,1,0,1,1,0,1,1
 5701,D,Dc,Obert,Cagliari,1,2,-1,1,2,-1,3,3
@@ -245,9 +247,9 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 6284,D,Dc,Okou,Verona,1,2,-1,1,2,-1,3,3
 6407,D,Dd;Ds;E,Corazza,Bologna,1,1,0,1,1,0,1,1
 6474,D,Dc,Sazonov,Empoli,1,1,0,1,1,0,6,6
+6496,D,Ds;E,Bartesaghi,Milan,1,1,0,1,1,0,1,1
 6551,D,Dc,Ilic M.,Bologna,1,1,0,1,1,0,1,1
 6631,D,Dc,Ghilardi,Verona,1,1,0,1,1,0,1,1
-6637,D,Dd;E,Kovacik,Como,1,1,0,1,1,0,1,1
 6649,D,Dd;E,Sangare' B.,Roma,1,1,0,1,1,0,1,1
 6660,D,Dc,Marcandalli,Genoa,1,1,0,1,1,0,1,1
 6803,D,Ds;E,Rouhi,Juventus,1,1,0,1,1,0,1,1
@@ -356,7 +358,6 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 440,C,C;T,Viola,Cagliari,5,6,-1,5,6,-1,14,14
 801,C,M;C,Gagliardini,Monza,5,5,0,6,6,0,9,11
 2117,C,C;T,Kastanos,Verona,5,4,1,5,4,1,7,7
-2172,C,T,Barak,Fiorentina,5,6,-1,5,6,-1,14,12
 2274,C,C;T,Valoti,Monza,5,6,-1,5,6,-1,13,13
 4404,C,C,Thorsby,Genoa,5,5,0,4,4,0,10,8
 4423,C,C,Hernani,Parma,5,6,-1,4,5,-1,11,9
@@ -389,7 +390,6 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 556,C,M;C,Baselli,Como,3,3,0,3,3,0,7,9
 2161,C,M;C,Haas,Empoli,3,2,1,3,2,1,3,3
 4349,C,M;C,Nicolussi Caviglia,Venezia,3,1,2,3,1,2,4,5
-4711,C,E;W,Kostic,Juventus,3,4,-1,4,5,-1,5,5
 4870,C,M;C,Adopo,Cagliari,3,2,1,3,2,1,3,3
 5485,C,C;W,Bjarkason,Venezia,3,4,-1,3,4,-1,6,6
 5813,C,C;T,Miretti,Genoa,3,4,-1,3,4,-1,18,18
@@ -410,24 +410,28 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 6190,C,C,Pisilli,Roma,2,1,1,2,1,1,1,1
 6191,C,M;C,Belahyane,Verona,2,1,1,2,1,1,4,6
 6562,C,M;C,Dani Silva,Verona,2,3,-1,2,3,-1,5,5
-6579,C,W,Mitrovic S.,Verona,2,3,-1,2,3,-1,6,5
 6683,C,M;C,Doumbia I.,Venezia,2,1,1,2,1,1,2,2
 6889,C,W;T,Anjorin,Empoli,2,2,0,2,2,0,4,4
+4285,C,M;C,Arthur Melo,Juventus,1,1,0,1,1,0,1,1
 5286,C,M;C,Akpa Akpro,Lazio,1,1,0,1,1,0,2,2
 5298,C,M;C,Pobega,Bologna,1,2,-1,2,3,-1,12,14
 5421,C,C;T,Camara D.,Parma,1,1,0,1,1,0,1,1
 5486,C,C,Crnigoj,Venezia,1,1,0,1,1,0,1,1
+5674,C,C,Basic,Lazio,1,1,0,1,1,0,1,1
 5725,C,M;C,Kone B.,Como,1,1,0,1,1,0,1,1
 5798,C,M;C,Bohinen,Genoa,1,1,0,1,1,0,1,1
 5998,C,E;W,Zerbin,Napoli,1,2,-1,1,2,-1,4,4
-6015,C,C;T,BERISHA M.,Lecce,1,1,0,1,1,0,1,1
+6015,C,C;T,Berisha M.,Lecce,1,1,0,1,1,0,1,1
 6024,C,M;C,Sulemana I.,Atalanta,1,2,-1,2,3,-1,4,5
 6203,C,M;C,Belardinelli,Empoli,1,1,0,1,1,0,1,1
 6410,C,M;C,Kaba,Lecce,1,1,0,1,1,0,1,1
 6524,C,C;T,Zeroli,Milan,1,1,0,1,1,0,1,1
 6532,C,E;W,Buchanan T.,Inter,1,1,0,1,1,0,1,1
+6618,C,W;T,Cisse' A.,Verona,1,1,0,1,1,0,1,1
 6677,C,T,Adzic,Juventus,1,1,0,1,1,0,1,1
 6678,C,W;T,Liberali,Milan,1,1,0,1,1,0,1,1
+6819,C,T,El Haddad,Venezia,1,1,0,1,1,0,1,1
+6821,C,E;C,Hainaut,Parma,1,1,0,1,1,0,1,1
 6834,C,C,Cassa,Atalanta,1,1,0,1,1,0,1,1
 6839,C,C;T,Byar,Bologna,1,1,0,1,1,0,1,1
 6872,C,C;T,Manzoni,Atalanta,1,1,0,1,1,0,1,1
@@ -438,15 +442,14 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 2841,A,Pc,Vlahovic,Juventus,37,37,0,38,38,0,380,380
 2531,A,Pc,Lukaku,Napoli,34,33,1,34,33,1,355,355
 4871,A,Pc,Thuram,Inter,34,31,3,33,30,3,300,300
-4661,A,Pc,Osimhen,Napoli,33,35,-2,34,36,-2,155,155
-309,A,A,Dybala,Roma,32,34,-2,33,35,-2,267,267
+309,A,A,Dybala,Roma,32,34,-2,33,35,-2,230,230
 6675,A,Pc,Dovbyk,Roma,30,32,-2,29,31,-2,226,226
 5839,A,A,Kvaratskhelia,Napoli,29,29,0,30,30,0,262,262
 2137,A,Pc,Scamacca,Atalanta,26,28,-2,25,27,-2,145,140
 4730,A,A,Lookman,Atalanta,26,28,-2,27,29,-2,208,222
 313,A,Pc,Morata,Milan,25,26,-1,25,26,-1,181,179
 608,A,Pc,Zapata D.,Torino,25,25,0,25,25,0,172,170
-4510,A,A,Leao,Milan,25,25,0,26,26,0,217,217
+4510,A,A,Leao,Milan,25,25,0,26,26,0,220,220
 5800,A,A,Gudmundsson A.,Fiorentina,25,27,-2,26,28,-2,158,161
 4179,A,A,Gonzalez N.,Juventus,23,25,-2,24,26,-2,100,103
 6226,A,Pc,Castellanos,Lazio,23,21,2,23,21,2,130,127
@@ -525,6 +528,7 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 6670,A,Pc,Charpentier,Parma,2,1,1,2,1,1,1,1
 2325,A,A,Karamoh,Torino,1,1,0,1,1,0,1,1
 6011,A,A,Ekong,Empoli,1,1,0,1,1,0,1,1
+6250,A,Pc,Maric,Monza,1,1,0,1,1,0,1,1
 6418,A,Pc,Burnete,Lecce,1,1,0,1,1,0,1,1
 6490,A,Pc,Cruz,Verona,1,1,0,1,1,0,1,1
 6519,A,Pc,Camarda,Milan,1,1,0,1,1,0,1,1
@@ -533,3 +537,4 @@ Id,R,RM,Nome,Squadra,Qt.A,Qt.I,Diff.,Qt.A M,Qt.I M,Diff.M,FVM,FVM M
 6648,A,W;A,Jasim,Como,1,1,0,1,1,0,1,1
 6822,A,Pc,Ekhator,Genoa,1,1,0,1,1,0,1,1
 6910,A,A,Kowalski,Parma,1,1,0,1,1,0,7,7
+6912,A,Pc,Vlahovic V.,Atalanta,1,1,0,1,1,0,1,1

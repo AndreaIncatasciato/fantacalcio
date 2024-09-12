@@ -77,7 +77,7 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 2816,D,B;Dd;E,Di Lorenzo,Napoli,3,5.67,6.67,1,0,0,0,0,0,0,0,0,0
 2120,D,Dc,Bastoni,Inter,3,6.5,6.5,0,0,0,0,0,0,0,0,0,0
 2724,D,Dc,Buongiorno,Napoli,2,6.25,6.25,0,0,0,0,0,0,0,0,0,0
-2788,D,Dc,Bremer,Juventus,3,6.33,6.17,0,0,0,0,0,0,0,1,0,0
+2788,D,Dc,Bremer,Juventus,3,6.33,6.33,0,0,0,0,0,0,0,0,0,0
 5513,D,E,Dumfries,Inter,2,6,6,0,0,0,0,0,0,0,0,0,0
 2160,D,E,Gosens,Fiorentina,1,7,10,1,0,0,0,0,0,0,0,0,0
 4177,D,Dd;Dc,Pavard,Inter,2,6.5,7,0,0,0,0,0,0,1,0,0,0
@@ -109,6 +109,7 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 5877,D,E,Carlos Augusto,Inter,3,6,6,0,0,0,0,0,0,0,0,0,0
 5885,D,Dd;E,Dodo',Fiorentina,3,5.83,5.67,0,0,0,0,0,0,0,1,0,0
 252,D,B;Ds;E,Biraghi,Fiorentina,3,5.83,6.83,1,0,0,0,0,0,0,0,0,0
+2406,D,Dc,Hummels,Roma,0,0,0,0,0,0,0,0,0,0,0,0,0
 2602,D,Dc,Varane,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 2640,D,B;Ds;E,Kolasinac,Atalanta,0,0,0,0,0,0,0,0,0,0,0,0,0
 4210,D,Dc,Mina,Cagliari,2,5.75,5.75,0,0,0,0,0,0,0,0,0,0
@@ -260,6 +261,7 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6826,D,E,Dembele' A.,Torino,2,6,6,0,0,0,0,0,0,0,1,0,0
 6887,D,Dc,Leoni,Parma,0,0,0,0,0,0,0,0,0,0,0,0,0
 358,D,Dd;Ds;E,De Sciglio,Empoli,0,0,0,0,0,0,0,0,0,0,0,0,0
+464,D,Dd;Ds;E,Florenzi,Milan,0,0,0,0,0,0,0,0,0,0,0,0,0
 2203,D,Ds;E,Di Chiara,Parma,0,0,0,0,0,0,0,0,0,0,0,0,0
 4438,D,Dd;Ds;E,Cassandro,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 5533,D,Dd;Dc,Djalo',Juventus,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -272,6 +274,7 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6284,D,Dc,Okou,Verona,0,0,0,0,0,0,0,0,0,0,0,0,0
 6407,D,Dd;Ds;E,Corazza,Bologna,0,0,0,0,0,0,0,0,0,0,0,0,0
 6474,D,Dc,Sazonov,Empoli,1,5,5,0,0,0,0,0,0,0,0,0,0
+6496,D,Ds;E,Bartesaghi,Milan,0,0,0,0,0,0,0,0,0,0,0,0,0
 6551,D,Dc,Ilic M.,Bologna,0,0,0,0,0,0,0,0,0,0,0,0,0
 6612,D,Dd;Dc,Dellavalle,Torino,0,0,0,0,0,0,0,0,0,0,0,0,0
 6631,D,Dc,Ghilardi,Verona,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -448,16 +451,18 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6683,C,M;C,Doumbia I.,Venezia,1,5.5,5.5,0,0,0,0,0,0,0,0,0,0
 6889,C,W;T,Anjorin,Empoli,0,0,0,0,0,0,0,0,0,0,0,0,0
 434,C,M;C,Jajalo,Venezia,0,0,0,0,0,0,0,0,0,0,0,0,0
+4285,C,M;C,Arthur Melo,Juventus,0,0,0,0,0,0,0,0,0,0,0,0,0
 5286,C,M;C,Akpa Akpro,Lazio,0,0,0,0,0,0,0,0,0,0,0,0,0
 5298,C,M;C,Pobega,Bologna,0,0,0,0,0,0,0,0,0,0,0,0,0
 5421,C,C;T,Camara D.,Parma,1,6,6,0,0,0,0,0,0,0,0,0,0
 5486,C,C,Crnigoj,Venezia,1,6,6,0,0,0,0,0,0,0,0,0,0
+5674,C,C,Basic,Lazio,0,0,0,0,0,0,0,0,0,0,0,0,0
 5725,C,M;C,Kone B.,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 5798,C,M;C,Bohinen,Genoa,0,0,0,0,0,0,0,0,0,0,0,0,0
 5873,C,W,Listkowski,Lecce,0,0,0,0,0,0,0,0,0,0,0,0,0
 5998,C,E;W,Zerbin,Napoli,0,0,0,0,0,0,0,0,0,0,0,0,0
 6009,C,M;C,Degli Innocenti,Empoli,0,0,0,0,0,0,0,0,0,0,0,0,0
-6015,C,C;T,BERISHA M.,Lecce,0,0,0,0,0,0,0,0,0,0,0,0,0
+6015,C,C;T,Berisha M.,Lecce,0,0,0,0,0,0,0,0,0,0,0,0,0
 6024,C,M;C,Sulemana I.,Atalanta,0,0,0,0,0,0,0,0,0,0,0,0,0
 6162,C,M;C,Abildgaard,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 6203,C,M;C,Belardinelli,Empoli,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -465,9 +470,12 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6410,C,M;C,Kaba,Lecce,0,0,0,0,0,0,0,0,0,0,0,0,0
 6524,C,C;T,Zeroli,Milan,0,0,0,0,0,0,0,0,0,0,0,0,0
 6532,C,E;W,Buchanan T.,Inter,0,0,0,0,0,0,0,0,0,0,0,0,0
+6618,C,W;T,Cisse' A.,Verona,0,0,0,0,0,0,0,0,0,0,0,0,0
 6655,C,M;C,Bellemo,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 6677,C,T,Adzic,Juventus,0,0,0,0,0,0,0,0,0,0,0,0,0
 6678,C,W;T,Liberali,Milan,0,0,0,0,0,0,0,0,0,0,0,0,0
+6819,C,T,El Haddad,Venezia,1,6,6,0,0,0,0,0,0,0,0,0,0
+6821,C,E;C,Hainaut,Parma,1,5.5,5.5,0,0,0,0,0,0,0,0,0,0
 6834,C,C,Cassa,Atalanta,1,6,6,0,0,0,0,0,0,0,0,0,0
 6839,C,C;T,Byar,Bologna,0,0,0,0,0,0,0,0,0,0,0,0,0
 6872,C,C;T,Manzoni,Atalanta,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -576,6 +584,7 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6670,A,Pc,Charpentier,Parma,1,5.5,5.5,0,0,0,0,0,0,0,0,0,0
 2325,A,A,Karamoh,Torino,1,6,6,0,0,0,0,0,0,0,0,0,0
 6011,A,A,Ekong,Empoli,0,0,0,0,0,0,0,0,0,0,0,0,0
+6250,A,Pc,Maric,Monza,0,0,0,0,0,0,0,0,0,0,0,0,0
 6418,A,Pc,Burnete,Lecce,0,0,0,0,0,0,0,0,0,0,0,0,0
 6490,A,Pc,Cruz,Verona,0,0,0,0,0,0,0,0,0,0,0,0,0
 6519,A,Pc,Camarda,Milan,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -586,3 +595,4 @@ Id,R,Rm,Nome,Squadra,Pv,Mv,Fm,Gf,Gs,Rp,Rc,R+,R-,Ass,Amm,Esp,Au
 6658,A,Pc,Gioacchini,Como,0,0,0,0,0,0,0,0,0,0,0,0,0
 6822,A,Pc,Ekhator,Genoa,0,0,0,0,0,0,0,0,0,0,0,0,0
 6910,A,A,Kowalski,Parma,1,6,6,0,0,0,0,0,0,0,0,0,0
+6912,A,Pc,Vlahovic V.,Atalanta,0,0,0,0,0,0,0,0,0,0,0,0,0
